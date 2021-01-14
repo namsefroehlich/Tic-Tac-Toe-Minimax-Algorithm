@@ -2,4 +2,4 @@
 
 # You can't win!
 
-Tic-Tac-Toe AI that plays a perfect game. This AI will consider all possible scenarios and makes the most optimal move.
+Tic-Tac-Toe Opponent that plays a perfect game. Minimax will consider all possible scenarios and makes the most optimal move.
