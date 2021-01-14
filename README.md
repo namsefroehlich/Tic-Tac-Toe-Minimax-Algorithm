@@ -3,3 +3,5 @@
 # You can't win!
 
 Tic-Tac-Toe Opponent that plays a perfect game. Minimax will consider all possible scenarios and makes the most optimal move.
+
+# https://namsefroehlich.github.io/Tic-Tac-Toe-Minimax-Algorithm/
