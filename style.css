@@ -3,6 +3,7 @@
 * {
 	font-family: Raleway;
 	background-color: white;
+	color: grey;
 }
 
 .btn{
@@ -21,14 +22,20 @@
 	cursor: pointer;
 }
 
+.table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 td {
 	border:  2px solid #333;
-	height:  100px;
-	width:  100px;
+	height:  10vh;
+	width:  10vh;
 	text-align:  center;
 	vertical-align:  middle;
 	font-family:  Raleway;
-	font-size:  70px;
+	font-size:  4vh;
 	cursor: pointer;
 }
 
@@ -36,9 +43,6 @@ table {
 	margin-top: 25vh;
 	border-collapse: collapse;
 	position: absolute;
-	left: 50%;
-	margin-left: -155px;
-	top: 50px;
 }
 
 table tr:first-child td {
@@ -58,16 +62,10 @@ table tr td:last-child {
 }
 
 .endgame {
-  display: none;
-  width: 10vw;
-  top: 75%;
-  position: absolute;
-  left: 50%;
-  margin-left: -100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  border-radius: 5px;
   color: black;
   font-size: 5vh;
 }
