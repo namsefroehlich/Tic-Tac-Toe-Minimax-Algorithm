@@ -80,7 +80,7 @@ function gameOver(gameWon) {
     // setting background color for huPlayer or aiPlayer if they won
     for (let index of winCombos[gameWon.index]) {
         document.getElementById(index).style.backgroundColor = 
-        gameWon.player == huPlayer ? "blue" : "red";
+        gameWon.player == huPlayer ? "white" : "lightgrey";
     }
     // every cell that was clicked is now unclickable && if gameWon no more clicking possible
     for (var i = 0; i < cells.length; i++) {
@@ -106,7 +106,7 @@ function bestSpot() {
 function checkTie() {
 	if (emptySquares().length == 0) {
 		for (var i = 0; i < cells.length; i++) {
-			cells[i].style.backgroundColor = "green";
+			cells[i].style.backgroundColor = "lightgrey";
 			cells[i].removeEventListener('click', turnClick, false);
 		}
 		declareWinner("Tie Game!")

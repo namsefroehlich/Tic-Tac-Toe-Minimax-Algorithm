@@ -1,16 +1,39 @@
-  
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+	font-family: Raleway;
+	background-color: white;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25vh;
+}
+
+#btn{
+    width: 15vh;
+    height: 8vh;
+    font-size: 4vh;
+	border: grey 1px solid;
+	outline: none;
+	cursor: pointer;
+}
+
 td {
 	border:  2px solid #333;
 	height:  100px;
 	width:  100px;
 	text-align:  center;
 	vertical-align:  middle;
-	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-family:  Raleway;
 	font-size:  70px;
 	cursor: pointer;
 }
 
 table {
+	margin-top: 25vh;
 	border-collapse: collapse;
 	position: absolute;
 	left: 50%;
@@ -36,9 +59,8 @@ table tr td:last-child {
 
 .endgame {
   display: none;
-  width: 200px;
-  top: 120px;
-  background-color: rgba(205,133,63, 0.8);
+  width: 10vw;
+  top: 75%;
   position: absolute;
   left: 50%;
   margin-left: -100px;
@@ -46,6 +68,6 @@ table tr td:last-child {
   padding-bottom: 50px;
   text-align: center;
   border-radius: 5px;
-  color: white;
-  font-size: 2em;
+  color: black;
+  font-size: 5vh;
 }
